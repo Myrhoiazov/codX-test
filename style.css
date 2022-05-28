@@ -556,5 +556,70 @@ body {
 }
 
 
+/* Our Progress */
+
+.our-progress{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.our-progress-section {
+  list-style: none;
+
+  margin: 0;
+  padding: 64px;
+}
+.our-progress-list {
+  margin-bottom: 34px;
+  
+}
+.progress-subtitle {
+  display: inline-block;
+
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.1;
+  letter-spacing: 0.48px;
+
+  padding: 6px 20px;
+  margin-bottom: 5px;
+  border-radius: 30px;
+
+  color: var(--white);
+  background-color: var(--black-brand-color);
+}
+.title-green{
+  background-color: var(--green-brand-color);
+}
+.title-red{
+  background-color: var(--brand-color-red);
+}
+.title-yellow{
+  background-color: var(--yellow);
+}
+
+.progress-hero-title {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 1;
+  letter-spacing: 0.48px;
+
+  color: var(--black-brand-color);
+  margin-top: 0;
+  margin-bottom: 13px;
+}
+.progress-text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0.48px;
+
+  color: var(--black-brand-color);
+  margin: 0;
+
+}
+
+
 
 
