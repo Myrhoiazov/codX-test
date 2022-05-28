@@ -1,19 +1,9 @@
 /* Общие переменные */
 
-html {
-  box-sizing: border-box;
-}
-
 *,
 *::before,
 *::after {
   box-sizing: inherit;
-}
-
-ul,
-li {
-  margin: 0;
-  padding: 0;
 }
 
 a {
@@ -398,7 +388,8 @@ body {
     font-size: 17px;
     line-height: 26px;
     letter-spacing: 0.48px;
-margin-top: 0;
+
+    margin-top: 0;
 }
 .we-are-artist {
     padding: 50px 48px;
@@ -419,6 +410,8 @@ margin-top: 0;
 }
 
 .we-btn {
+    min-width: 175px;
+
     padding: 11px 64px;
     border: 1px solid var(--black-brand-color);
     border-radius: 30px;
@@ -438,11 +431,11 @@ margin-top: 0;
     display: flex;
     align-items: center;
     list-style: none;
+
+    padding-top: 64px;
+    padding-bottom: 50px;
 }
-.artist-img {
-}
-.artist-title {
-}
+
 .artist-subtitle {
     font-weight: 300;
     font-size: 16px;
