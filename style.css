@@ -532,8 +532,9 @@ body {
     justify-content: flex-end;
 
 }
-.work-btn {
-    display: block;
+
+.button{
+  display: inline-block;
 
     padding: 12px 40px;
 
@@ -547,9 +548,10 @@ body {
     background-color: var(--black-brand-color);
 
     transition: background-color 250ms ease, color 250ms ease;
+  
 }
 
-.work-btn:hover{
+.button:hover{
     background-color: transparent;
     border: 1px solid var(--black-brand-color);
     color: var(--black-brand-color);
@@ -562,6 +564,9 @@ body {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
+
+  margin-bottom: 185px;
+
 }
 
 .our-progress-section {
@@ -618,6 +623,59 @@ body {
   color: var(--black-brand-color);
   margin: 0;
 
+}
+
+
+/* Join Us */
+
+.join-us {
+  background-color: var(--green-brand-color);
+
+  padding-top: 70px;
+  padding-bottom: 80px;
+  position: relative;
+}
+.join-us-section {
+  list-style: none;
+
+}
+
+.join-us-hero-title {
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 1;
+  letter-spacing: 0.48px;
+
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  color: var(--black-brand-color);
+
+}
+.work-text {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.1;
+  letter-spacing: 0.48px;
+
+  margin-bottom: 48px;
+
+  color: var(--black-brand-color);
+}
+.join-us-img {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  opacity: 1;
+
+  transition: opacity 250ms ease;
+}
+
+.join-us:hover .join-us-img{
+  opacity: 0;
+  pointer-events: none;
 }
 
 
