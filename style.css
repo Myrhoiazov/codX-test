@@ -732,6 +732,7 @@ body {
 
 .top-nft {
   padding-top: 104px;
+  padding-bottom: 55px;
 }
 .top-nft-title {
   text-align: center;
@@ -844,6 +845,78 @@ body {
   display: flex;
   justify-content: center;
 }
+
+
+/* FAQ section */
+
+.faq-section {
+  max-width: 1072px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-bottom: 100px;
+}
+
+.faq-title {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+
+.faq-items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.faq-item {
+  display: flex;
+  align-items: center;
+
+  border-radius: 30px;
+
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: 0;
+}
+
+.faq-item:hover{
+  box-shadow: 0 5px 15px rgba(219, 218, 218, 0.5);
+  cursor: pointer;
+
+}
+.faq-subtitle {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 1.1;
+  letter-spacing: 0.48px;
+
+  padding-top: 23px;
+  padding-bottom: 23px;
+  padding-left: 26px;
+
+  margin: 0;
+}
+
+
+.icon-faq{
+  stroke-width: 6;
+  stroke: var(--green-brand-color);
+
+  width: 28px;
+  height: 17px;
+
+  margin-left: auto;
+  margin-right: 26px;
+
+  transition: stroke 250ms ease;
+ 
+}
+
+.icon-faq:hover{
+  stroke: var(--black-brand-color);
+  cursor: pointer;
+}
+
 
 
 
