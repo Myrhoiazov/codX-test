@@ -48,7 +48,6 @@ body {
     
   display: flex;
   align-items: center;
-  justify-content: space-between;
 
   height: 70px;
   width: 100%;
@@ -115,6 +114,8 @@ body {
   justify-content: space-between;
   list-style: none;
   margin-right: 28px;
+
+  margin-left: auto;
 }
 
 .nav-social-icon:not(:first-child) {
