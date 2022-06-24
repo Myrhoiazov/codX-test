@@ -1,0 +1,7 @@
+@import './base/normalize';
+@import './utils/variables';
+@import './utils/placeholders';
+
+a {
+  @extend %link;
+}

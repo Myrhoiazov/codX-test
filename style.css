@@ -1,29 +1,15 @@
 /* Общие переменные */
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-a {
+/* a {
   display: inline-block;
   text-decoration: none;
-}
-
-:root {
-  --black-brand-color: rgba(47, 47, 47, 1);
-  --green-brand-color: rgba(130, 203, 172, 1);
-  --brand-color-red: rgba(255, 127, 150, 1);
-  --yellow: rgba(234, 215, 27, 1);
-  --white: rgba(255, 255, 255, 1);
-}
+} */
 
 body {
   font-family: 'Outfit';
   box-sizing: border-box;
   color: var(--black-brand-color);
-  background-color: var(--white)
+  background-color: var(--white);
   margin: 0;
 }
 
